@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin:auto;
+    display:block;
+}
+.logo-wrapper{
+    border-bottom: 5px solid #D0D0D0;
+}
+.location-text{
+    font-size: 50px;
+}
+.locationpin{
+    width: 50px;
+}
+.location-wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #EAEAEA;
+}
+.book{
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.discover{
+    font-size: 70px;
+    color: #494949;
+    text-align: center;
+}
+.explore-button{
+    margin: auto;
+    display: block;
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 61px;
+    color: white;
+    background: linear-gradient(#EC6FDA,#A25BDC);
+    border: 0;
+}
+.book-background{
+    background-color: #F6F6F6;
+    padding-top: 1px;
+    padding-bottom: 100px;
+}
+.how-it-works{
+    font-size: 80px;
+    font-weight: bold;
+    padding-left: 150px;
+}
+.purple-background{
+    background-color: #F5EDFF !important;
+}
+.steps-wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #F6F6F6;
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 61px;
+    margin:auto;
+    width: 750px;
+    margin-bottom: 40px;
+}
+.steps-text{
+    font-weight: bold;
+    padding-left: 40px;
+}
+.steps-icons{
+    width: 50px;
+}
+.restaurant-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.restaurant-option{
+    display: flex;
+}
