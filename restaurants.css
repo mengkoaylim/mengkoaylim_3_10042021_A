@@ -1,0 +1,154 @@
+body{
+    padding: 0;
+    margin:0;
+}
+.logo-wrapper{
+    border-bottom: 5px solid #D0D0D0;
+}
+.left-arrow{
+    width: 50px;
+    position: absolute;
+    top:30px;
+    left:90px;
+}
+.logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin:auto;
+    display:block;
+}
+.restaurant-image{
+    width: 100%;
+    object-fit: cover;
+    height: 650px;
+}
+.restaurant-name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.heart-icon{
+    width: 50px;
+}
+.restaurant-name-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.restaurant-menu{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #F6F6F6;
+}
+.restaurant-menu-section{
+    font-size: 40px;
+    margin: 0;
+}
+.restaurant-menu-section-line{
+    height: 10px;
+    width: 100px;
+    background-color: #99E2D0;
+    margin-bottom: 20px;
+}
+.restaurant-menu-item{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    animation-name: my-animation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    display:flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.restaurant-menu-item-name{
+    font-size: 30px;
+    font-weight: bold;
+}
+.restaurant-menu-lower-wrapper{
+    display:flex;
+    justify-content:space-between;
+}
+.restaurant-menu-item-name-subtitle{
+    color:#838383;
+    font-size: 30px;
+    margin:0px;
+}
+.menu-price{
+    font-weight: bold;
+    font-size: 30px;
+    margin:0px;
+}
+.order-button{
+    margin: 100px auto 200px auto;
+    display: block;
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 61px;
+    color: white;
+    background: linear-gradient(#EC6FDA,#A25BDC);
+    border: 0;
+    width: 500px;
+}
+.footing-background{
+    background-color: #353535;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    display: block;
+}
+.footing-icon{
+    width: 50px;
+}
+.footing-text{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.sub-footing-display{
+    display: flex;
+}
+.delay-1{
+    animation-delay: 3s;
+}
+.delay-2{
+    animation-delay: 4s;
+}
+.delay-3{
+    animation-delay: 5s;
+}
+.delay-4{
+    animation-delay: 6s;
+}
+.check-icon{
+    width: 75px;
+    display:block;
+}
+.restaurant-menu-item-text{
+    flex-grow: 1;
+    margin-right:50px;
+    padding-left:20px;
+    padding-bottom:20px;
+}
+.check-icon-wrapper{
+    background-color: #8EDDC8;
+    width:0px;
+    display: flex;
+    justify-content: center;
+    transition: width 2s;
+}
+.restaurant-menu-item:hover .check-icon-wrapper{
+    width:150px;
+}
+
+
+
+
+
+@keyframes my-animation{
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+    }
+}

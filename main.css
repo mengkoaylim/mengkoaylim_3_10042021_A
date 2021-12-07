@@ -66,6 +66,7 @@ body {
     margin:auto;
     width: 750px;
     margin-bottom: 40px;
+    position:relative;
 }
 .steps-text{
     font-weight: bold;
@@ -76,8 +77,87 @@ body {
 }
 .restaurant-title{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 80px;
+    padding-left: 150px;
 }
 .restaurant-option{
+    display: block;
+    width: 750px;
+    border-radius: 61px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 40px;
+    position: relative;
+}
+.restaurant-background{
+    background-color: #F6F6F6;
+}
+.heart-icon{
+    width: 50px;
+    height:50px;
+    background-image: url(assets/heart.svg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.heart-icon:hover{
+    background-image: url(assets/heartpurple.svg);
+}
+.restaurant-image2{
+    object-fit: cover;
+    object-position: center -315px;
+}
+.image-subtitle{
+    display:flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.restaurant-image{
+    object-fit: cover;
+}
+.step-number{
+    background-color:#9356DC;
+    color:#FFFFFF;
+    font-size: 50px;
+    position: absolute;
+    top: 75px;
+    left:-25px;
+    border-radius:29px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.new-indicator{
+    background-color: #99E2D0;
+    color: #0B8E6E;
+    font-size: 35px;
+    position: absolute;
+    top:50px;
+    right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+.footing-background{
+    background-color: #353535;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    display: block;
+}
+.footing-icon{
+    width: 50px;
+}
+.footing-text{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.sub-footing-display{
     display: flex;
+}
+.link{
+    color:initial;
+    text-decoration: initial;
 }
