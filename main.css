@@ -53,9 +53,6 @@ body {
     font-weight: bold;
     padding-left: 150px;
 }
-.purple-background{
-    background-color: #F5EDFF !important;
-}
 .steps-wrapper{
     display: flex;
     justify-content: center;
@@ -67,6 +64,11 @@ body {
     width: 750px;
     margin-bottom: 40px;
     position:relative;
+    box-shadow: 0 5px 15px lightgrey;
+}
+.steps-wrapper:hover{
+    box-shadow: 0 5px 25px grey;
+    background-color: #F5EDFF !important;
 }
 .steps-text{
     font-weight: bold;
@@ -88,6 +90,10 @@ body {
     margin: auto;
     margin-bottom: 40px;
     position: relative;
+    box-shadow: 0 5px 15px lightgrey;
+}
+.restaurant-option:hover{
+    box-shadow: 0 5px 25px grey;
 }
 .restaurant-background{
     background-color: #F6F6F6;
