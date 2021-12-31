@@ -161,3 +161,46 @@ body {
     color:initial;
     text-decoration: initial;
 }
+.main-spinner{
+    position: absolute;
+    top:calc(50% - 100px);
+    right:calc(50% - 100px);
+}
+.loading-page{
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.8;
+    animation-name: my-animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+.main-page{
+    overflow: hidden;
+    animation-name: overflow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes my-animation{
+    from{
+        opacity: 0.8;
+        
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes overflow{
+    from{
+        overflow:hidden;
+    }
+    to{
+        overflow: initial;
+    }
+}
